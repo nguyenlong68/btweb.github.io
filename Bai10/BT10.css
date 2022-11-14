@@ -1,0 +1,106 @@
+.content{
+    max-width: 1080px;
+    margin: auto;
+}
+
+.header{
+    background-color: rgb(88, 166, 250);
+    text-align: center;
+    padding: 30px;
+}
+
+h1{
+    color: green;
+    text-align: center;
+}
+
+.content{
+    display: flex;
+}
+
+.main-content{
+    flex-basis: 60%;
+    padding: 20px;
+}
+
+.sidebars{
+    flex-basis: 40%;
+    padding: 30px;
+    margin-top: 25px;
+}
+
+h3, h4{
+    padding: 10px;
+}
+
+p{
+    padding: 5px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.WC22{
+    border: 1px solid #111;
+    padding: 3px;
+}
+
+.new-item1{
+    position: relative;
+    padding-top: 5px;
+}
+.sidebar-item1{
+    position: absolute;
+    text-align: left;
+    left: 133px;
+    bottom: 14px;
+}
+
+.new-item2{
+    position: relative;
+    padding-top: 5px;
+}
+.sidebar-item2{
+    position: absolute;
+    text-align: left;
+    left: 133px;
+    bottom: 4px;
+}
+
+.new-item3{
+    position: relative;
+    padding-top: 5px;
+}
+.sidebar-item3{
+    position: absolute;
+    text-align: left;
+    left: 133px;
+    bottom: 14px;
+}
+
+.new-item4{
+    position: relative;
+    padding-top: 5px;
+}
+.sidebar-item4{
+    position: absolute;
+    text-align: left;
+    left: 133px;
+    bottom: 14px;
+}
+
+.new-item5{
+    position: relative;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.sidebar-item5{
+    position: absolute;
+    text-align: left;
+    left: 133px;
+    bottom: 4px;
+}
+
+
+
