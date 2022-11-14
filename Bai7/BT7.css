@@ -1,0 +1,92 @@
+body{
+    max-width: 1170px;
+    margin: auto;
+    border: 1px solid #111;
+}
+
+.content{
+    padding: 30px;
+    padding-top: 80px;
+    display: flex;
+}
+
+.main-content{
+    flex-basis: 50%;
+}
+
+.sidebars{
+    flex-basis: 50%;
+    padding-left: 150px;
+}
+
+.footer{
+    padding: 10px 10px 0px 10px;
+}
+
+.header{
+    background-color: aquamarine;
+    position: relative;
+    padding: 100px;
+}
+
+.item-picture{
+    padding: 30px 30px 0px 30px;
+    position: absolute;
+    bottom: -33px;
+    left: 0px;
+}
+
+.item-info{
+    max-width: 600px;
+    position: absolute;
+    bottom: 70px;
+    left: 329px;
+    font-size: 19px;
+    text-transform: uppercase;
+}
+
+img{
+    border: 3px solid #111;
+    display: block;
+}
+
+.name{
+    padding-bottom: 20px;
+    margin-left: 28px;
+    position: absolute;
+    left: 222px;
+    bottom: -28px;
+}
+
+.Work-Experience{
+    border-left: 4px solid rgb(5, 151, 196);
+    padding: 10px;
+}
+
+.Education{
+    border-left: 4px solid rgb(5, 151, 196);
+    padding: 10px;
+}
+
+p{
+    font-size: 17px;
+    color: #555;
+}
+
+li{
+    list-style: none;
+    padding: 5px
+}
+
+a{
+    text-decoration: none;
+    color: rgb(50, 117, 250);
+}
+
+.item-content{
+    padding: 30px;
+}
+
+.text-mini{
+    font-size: 13px;
+}
