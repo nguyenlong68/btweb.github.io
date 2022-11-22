@@ -1,18 +1,44 @@
+*{
+    max-width: 1170px;
+    margin: 0px auto;
+}
+
 .content{
-    max-width: 1080px;
-    margin: auto;
     background-color: antiquewhite;
+    padding: 10px;
 }
 
 .header{
-    background-color: rgb(88, 166, 250);
-    text-align: center;
-    padding: 30px;
+    border-bottom: 3px solid #111;
+    padding: 10px;
 }
 
-h1{
+.clearfix{
+    clear: both;
+}
+
+.logo img{
+    height: 100%;
+    width: auto;
+}
+
+.logo{
+    float: left;
+    height: 45px;
+    
+}
+
+.icon-head li{
+    float: right;
+    list-style: none;   
+    padding: 15px;
+    padding-left: 30px;
+}
+
+h1.tieude{
     color: green;
     text-align: center;
+    padding: 15px;
 }
 
 .content{
